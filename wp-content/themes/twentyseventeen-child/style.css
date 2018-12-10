@@ -1,0 +1,72 @@
+/*
+  Theme Name: Twenty Seventeen Child Theme
+  Theme URI:
+  Description: A portfolio site for graphic and web design
+  Author: dbmcmurdo
+  Author URI: dequalsmcsquared
+  Template: twentyseventeen
+  Version: 0.1.0
+*/
+
+/* supresses the theme's page title */
+.entry-title {display: none; }
+
+h4 {
+  font-family: "Cambria";
+  font-style: bold;
+  /* font-size: 160%; */
+}
+
+.container {
+
+  width: 100%;
+  margin: 0 auto;
+  }
+
+.back-card {
+  margin: 2px 7px 1px;
+  padding: .3rem;
+  background-color: #839CA5; /* silver blue */
+  border-radius: 0.5rem;
+  }
+
+
+.about {
+  display: inline-block;
+  width: 45%;
+  padding: 2% 3% 2% 2%;
+}
+
+
+.logo-gallery {
+  float: right;
+  width: 45%;
+  padding: 2% 2% 2% 3%;
+}
+
+.websites {
+  display: inline-block;
+  width: 45%;
+	padding: 2% 3% 2% 2%;
+}
+
+.contact {
+  float: right;
+  width: 45%;
+  padding: 2% 2% 2% 3%;
+}
+
+.clearfix::before,
+.clearfix::after {
+  display: table;
+  content: " ";
+  }
+
+.clearfix::after {
+  clear: both;
+  }
+
+
+
+/* supresses the “Proudly Powered by WordPress” link */
+.site-info { display: none; }

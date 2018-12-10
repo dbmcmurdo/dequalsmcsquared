@@ -33,6 +33,9 @@
 							) );
 						?>
 					</nav><!-- .social-navigation -->
+
+				<?php echo comicpress_copyright(); ?>
+
 				<?php endif;
 
 				get_template_part( 'template-parts/footer/site', 'info' );
