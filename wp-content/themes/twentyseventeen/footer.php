@@ -33,13 +33,10 @@
 							) );
 						?>
 					</nav><!-- .social-navigation -->
-
-				<?php echo comicpress_copyright(); ?>
-
 				<?php endif;
-
-				get_template_part( 'template-parts/footer/site', 'info' );
 				?>
+				<?php echo comicpress_copyright(); ?>
+				
 			</div><!-- .wrap -->
 		</footer><!-- #colophon -->
 	</div><!-- .site-content-contain -->
